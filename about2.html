@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bree Day</title>
+    <style>
+        #block{
+            height: 100px; 
+            width: 100px;
+            position: absolute;
+            background: red;
+        }
+        body{
+            overflow: hidden;
+        }
+        #container{
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            top: 0;
+            left: 0;
+        }
+        .n{position:absolute; top:100px; width: 200px; height: 10px; background: black;}
+        .n1{top:200px;}
+        .n2{top:300px;}
+        .n3{top:400px;}
+        .n4{top:500px;}
+        .n5{top:600px;}
+
+    </style>
+</head>
+<body>
+    <div id="wrap">
+    <div class="n"></div>
+    <div class="n n1"></div>
+    <div class="n n2"></div>
+    <div class="n n3"></div>
+    <div class="n n4"></div>
+    <div class="n n5"></div>
+    </div>
+    <div id="container"></div>
+    <div id="block"></div>
+
+</body>
+<script src="about.js"></script>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bree Day</title>
+    <style>
+      body{
+        margin:0;
+        -webkit-font-smoothing:antialiased;
+      }
+      .absolute{
+        position: absolute;
+        color: white;
+        text-align: center;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        left: 50%;
+      }
+      .font{
+        font-family: 'Exo 2', sans-serif; 
+       }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div class="absolute font max-w-2xl" id="text">
+        <h1 class="text-4xl tracking-wide opacity-0" id="welcome">Welcome to the Breeverse</h1><br>
+        <button class="border px-4 py-2 rounded-lg tracking-wide text-sm uppercase hover:bg-white hover:text-gray-800 inline-block opacity-0" id="enter"><a href="#">Enter</a></button>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

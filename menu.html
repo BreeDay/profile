@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bree Day</title>
+</head>
+<style>
+    body{
+        margin:0;
+        -webkit-font-smoothing:antialiased;
+      }
+      .absolute{
+        position: absolute;
+        color: white;
+        text-align: center;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        left: 50%;
+      }
+      .font{
+        font-family: 'Exo 2', sans-serif; 
+       }
+</style>
+<body>
+    <div id="app">
+        <div class="absolute font max-w-2xl" id="text">
+          <h1 class="text-4xl tracking-wide opacity-0" id="welcome">Choose Your Direction</h1><br>
+          <button class="border px-4 py-2 rounded-lg tracking-wide text-sm uppercase opacity-0 hover:bg-white hover:text-gray-800 inline-block" id="about"><a href="#">About Bree</a></button>
+          <button class="border px-4 py-2 rounded-lg tracking-wide text-sm uppercase opacity-0 hover:bg-white hover:text-gray-800 inline-block" id="projects"><a href="#">Projects</a></button>
+          <button class="border px-4 py-2 rounded-lg tracking-wide text-sm uppercase opacity-0 hover:bg-white hover:text-gray-800 inline-block" id="games"><a href="#">Games</a></button>
+          <button class="border px-4 py-2 rounded-lg tracking-wide text-sm hover:bg-white opacity-0 hover:text-gray-800 inline-block" id="ibree"><a href="#">MEET iBREE</a></button>
+        </div>
+      </div>
+</body>
+<script type="module" src="/menu.js"></script>
+</html>
